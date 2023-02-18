@@ -2,8 +2,8 @@ import React from 'react'
 import Typed from 'react-typed'
 function Home() {
   return (
-    <div className='bg-[#0a192f]'>
-      <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center bg-[#0a192f]'>
+    <div className=''>
+      <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <Typed 
           className=''
           strings={['Hola',"Kon'nichiwa",'Ciao']}
