@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { AiOutlineClose ,AiOutlineMenu } from 'react-icons/ai'
 import ThemeToggle from './ThemeToggle'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 function Nav() {
 
     const [nav,setNav] = useState(false)
     const [show,handleShow] = useState(false)
+
     const handleNav= () => {
         setNav(!nav)
     }
@@ -20,13 +21,13 @@ function Nav() {
             <ThemeToggle />
         </div>
         <ul className='hidden md:flex'>
-            <Link to='/' smooth>
-                <li href='' className='p-4'>Home</li>
+            <Link to='home' smooth>
+                <li className='p-4'>Home</li>
             </Link>
-            <Link to='#about' smooth>
+            <Link to='about' smooth>
                 <li className='p-4'>About</li>
             </Link>
-            <Link to='#work' smooth>
+            <Link to='work' smooth>
                 <li className='p-4'>Work</li>
             </Link>
             <li className='p-4'><ThemeToggle/></li>
@@ -39,13 +40,13 @@ function Nav() {
         <div className={nav ? 'md:hidden fixed left-0 top-20 flex flex-col items-center justify-between w-full h-[90%] bg-primary ease-in duration-300 z-10':
         'fixed left-[-100%] top-20 h-[90%] flex flex-col items-center justify-between ease-in duration-300'}>
             <ul className='uppercase p-4'>
-            <Link to='/' smooth>
+            <Link to='home' smooth>
                 <li onClick={handleNav} className='p-4'>Home</li>
             </Link>
-            <Link to='#about' smooth>
+            <Link to='about' smooth>
                 <li onClick={handleNav} className='p-4'>About</li>
             </Link>
-            <Link to='#work' smooth>
+            <Link to='work' smooth>
                 <li onClick={handleNav} className='p-4'>Work</li>
             </Link>
             </ul>

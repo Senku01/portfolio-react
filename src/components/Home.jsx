@@ -2,7 +2,7 @@ import React from 'react'
 import Typed from 'react-typed'
 function Home() {
   return (
-    <div className=''>
+    <div className='' name='home'>
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <Typed 
           className=''
@@ -28,7 +28,7 @@ function Home() {
         <p className='md:text-2xl text-xl font-bold text-gray-500'>
           Scroll Down to know more about me
         </p>
-        <button className='rounded-full bg-[#7525ba] w-[200px] font-medium my-6 mx-auto py-3 text-black'>Resume</button>
+        <a href='https://drive.google.com/file/d/1f_eLhT7iDRx06M7uCmLLlThsV_5Pi4Kb/view?usp=sharing'><button className='rounded-full bg-[#7525ba] w-[200px] font-medium my-6 mx-auto py-3 text-black'>Resume</button></a>
       </div>
     </div>
   )

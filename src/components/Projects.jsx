@@ -5,7 +5,7 @@ function Projects() {
   const project = data
 
   return (
-    <div className="">
+    <div className="" name='work'>
       <div className='pb-8 flex justify-center'>
         <p className='text-4xl font-bold inline border-b-4 border-pink-600 sm:flex justify-start'>
           Work
