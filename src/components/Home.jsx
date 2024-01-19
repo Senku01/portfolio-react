@@ -28,7 +28,7 @@ function Home() {
         <p className='md:text-2xl text-xl font-bold text-gray-500'>
           Scroll Down to know more about me
         </p>
-        <a href='https://drive.google.com/file/d/1fOfuOy2k6VUDEuBH2IvCME-8UtcoDZtG/view?usp=sharing'><button className='rounded-full bg-[#7525ba] w-[200px] font-medium my-6 mx-auto py-3 text-black'>Resume</button></a>
+        <a href='https://drive.google.com/file/d/1vl4thccB-IxbUxwiGPixVHyggbLeebaj/view'><button className='rounded-full bg-[#7525ba] w-[200px] font-medium my-6 mx-auto py-3 text-black'>Resume</button></a>
       </div>
     </div>
   )
