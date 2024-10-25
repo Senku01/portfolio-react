@@ -17,7 +17,7 @@ function About() {
               <p>Hi. I'm Vignesh, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I'm a passionate software developer who loves to code and compete in programming challenges. I'm also interested in cybersecurity and enjoy participating in bug bounties to improve my knowledge in this area. My goal is to find a job in either security or development roles where I can leverage my skills to build secure and reliable software systems. </p>  
+              <p>I'm a passionate software developer and security engineer who loves coding, competing in CTFs, and tackling Hack The Box (HTB) challenges. I'm also interested in Application Security and actively participating in bug bounties. My goal is to find a job in either security or development roles where I can leverage my skills to build secure and reliable software systems. </p>  
             </div>
           </div>
       </div>

@@ -17,7 +17,7 @@ function Home() {
           </p>
           <Typed
             className='md:text-5xl sm-text-4xl text-xl font-bold py-4'
-            strings={['Full-Stack Developer','Web Application Pentester']}
+            strings={['Software Engineer','Application Security Engineer']}
             typeSpeed={40}
             backSpeed={50}
             loop
@@ -28,7 +28,7 @@ function Home() {
         <p className='md:text-2xl text-xl font-bold text-gray-500'>
           Scroll Down to know more about me
         </p>
-        <a href='https://drive.google.com/file/d/1vl4thccB-IxbUxwiGPixVHyggbLeebaj/view'><button className='rounded-full bg-[#7525ba] w-[200px] font-medium my-6 mx-auto py-3 text-black'>Resume</button></a>
+        <a href='https://drive.google.com/file/d/1WPbvSHb7dCoPc-jl4vhNXxkYu-NrUI8j/view'><button className='rounded-full bg-[#7525ba] w-[200px] font-medium my-6 mx-auto py-3 text-black'>Resume</button></a>
       </div>
     </div>
   )
